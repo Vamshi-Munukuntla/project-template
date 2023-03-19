@@ -1,0 +1,9 @@
+2023-03-19 22:40:23,568 - werkzeug - WARNING -  * Debugger is active!
+2023-03-19 22:40:23,580 - werkzeug - INFO -  * Debugger PIN: 640-290-656
+2023-03-19 22:40:28,200 - root - INFO - We are just testing logging module in flask app.
+2023-03-19 22:40:28,201 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2023 22:40:28] "GET / HTTP/1.1" 200 -
+2023-03-19 22:40:28,456 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2023 22:40:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-03-19 22:41:20,741 - root - INFO - We are just testing logging module in flask app.
+2023-03-19 22:41:20,741 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2023 22:41:20] "GET / HTTP/1.1" 200 -
+2023-03-19 22:41:37,236 - root - INFO - We are just testing logging module in flask app.
+2023-03-19 22:41:37,237 - werkzeug - INFO - 127.0.0.1 - - [19/Mar/2023 22:41:37] "GET / HTTP/1.1" 200 -

@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5eee043a-a8cf-4e06-a4ea-44e97a789c03" name="Changes" comment="template file is refactored">
-      <change afterPath="$PROJECT_DIR$/demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visa/entity/config_entity.py" afterDir="false" />
+    <list default="true" id="5eee043a-a8cf-4e06-a4ea-44e97a789c03" name="Changes" comment="setup file is updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log2023-03-11 20-58-37.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visa/exception/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/exception/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678553672997</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="setup file is updated">
+      <created>1679245387521</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679245387521</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -111,6 +112,7 @@
     <MESSAGE value="template is created" />
     <MESSAGE value="requirements file is updated." />
     <MESSAGE value="template file is refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="template file is refactored" />
+    <MESSAGE value="setup file is updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup file is updated" />
   </component>
 </project>
