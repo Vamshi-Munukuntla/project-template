@@ -10,6 +10,7 @@ visa/components/__init__.py
 visa/config/__init__.py
 visa/constant/__init__.py
 visa/entity/__init__.py
+visa/entity/config_entity.py
 visa/exception/__init__.py
 visa/logger/__init__.py
 visa/pipeline/__init__.py
