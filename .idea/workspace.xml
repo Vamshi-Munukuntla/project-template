@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5eee043a-a8cf-4e06-a4ea-44e97a789c03" name="Changes" comment="logger file is updated">
-      <change afterPath="$PROJECT_DIR$/e.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception_debug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log2023-03-20 00-44-54.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log2023-03-20 00-44-55.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log2023-03-20 00-45-39.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log2023-03-20 00-45-40.log" afterDir="false" />
+    <list default="true" id="5eee043a-a8cf-4e06-a4ea-44e97a789c03" name="Changes" comment="Exception file is completed">
+      <change afterPath="$PROJECT_DIR$/logs/log2023-03-20 00-46-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log2023-03-20 00-46-18.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log2023-03-12 08-55-02.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log2023-03-19 22-40-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception_debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/exception_debug.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,15 +56,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Data Science Live Class/project-template/visa/exception/__init__.py",
-    "two.files.diff.last.used.file": "D:/Data Science Live Class/project-template/visa/exception/__init__.py"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Data Science Live Class/project-template/visa/exception/__init__.py&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/Data Science Live Class/project-template/visa/exception/__init__.py&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Data Science Live Class\project-template\setup" />
@@ -119,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679246144248</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exception file is completed">
+      <created>1679253562087</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679253562087</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -133,6 +135,7 @@
     <MESSAGE value="template file is refactored" />
     <MESSAGE value="setup file is updated" />
     <MESSAGE value="logger file is updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="logger file is updated" />
+    <MESSAGE value="Exception file is completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception file is completed" />
   </component>
 </project>
