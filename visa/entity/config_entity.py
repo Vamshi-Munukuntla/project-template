@@ -6,6 +6,3 @@ DataIngestionConfig: namedtuple("DataIngestionConfig",
 
 DataValidationConfig: namedtuple("DataValidationConfig",
                                  ['schema_file_dir'])
-
-
-

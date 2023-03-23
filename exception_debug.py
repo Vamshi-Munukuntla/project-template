@@ -1,5 +1,7 @@
 import math
 import sys
+from collections import namedtuple
+
 
 a, b, c = 2, 2, 1
 
@@ -28,3 +30,10 @@ except:
     and exception block line number: [{exception_block_line_number}] 
     """
     print(error_message)
+
+
+Color = namedtuple('Color', ['red', 'blue', 'green'])
+
+color = Color(1, 1, 1)
+print(color)
+print(color.red)
