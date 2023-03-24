@@ -4,16 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5eee043a-a8cf-4e06-a4ea-44e97a789c03" name="Changes" comment="Project Template is ready">
-      <change afterPath="$PROJECT_DIR$/visa/config/configuration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visa/entity/config_artifact.py" afterDir="false" />
+    <list default="true" id="5eee043a-a8cf-4e06-a4ea-44e97a789c03" name="Changes" comment="Configuration file is updated.">
+      <change afterPath="$PROJECT_DIR$/logs/log2023-03-23 19-28-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-03-23-19-28-16/ingested_data/test/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-03-23-19-28-16/ingested_data/train/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-03-23-19-28-16/raw_data/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visa/entity/artifact_entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visa/pipeline/pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visa/utils/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exception_debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/exception_debug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visa/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log2023-03-20 00-44-54.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log2023-03-20 00-44-55.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log2023-03-20 00-45-39.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log2023-03-20 00-45-40.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log2023-03-20 00-46-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log2023-03-20 00-46-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visa/config/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/config/configuration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visa/constant/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/constant/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visa/entity/config_artifact.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/components/data_ingestion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visa/entity/config_entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/entity/config_entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visa/logger/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/logger/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +79,9 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Data Science Live Class/project-template/visa/exception/__init__.py&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;D:/Data Science Live Class/project-template/visa/exception/__init__.py&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/Data Science Live Class/project_template-shivan/config/config.yaml&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/Data Science Live Class/project_template-shivan/config/config.yaml&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;D:/Data Science Live Class/project_template-shivan/visa/exception&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -132,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679423284301</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Configuration file is updated.">
+      <created>1679551338807</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679551338807</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -148,6 +170,7 @@
     <MESSAGE value="logger file is updated" />
     <MESSAGE value="Exception file is completed" />
     <MESSAGE value="Project Template is ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Template is ready" />
+    <MESSAGE value="Configuration file is updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration file is updated." />
   </component>
 </project>

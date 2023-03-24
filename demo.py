@@ -1,15 +1,19 @@
-from flask import Flask
+from visa.pipeline.pipeline import Pipeline
+from visa.exception import CustomException
 from visa.logger import logging
-
-app = Flask(__name__)
-
-
-@app.route('/', methods=['GET', 'POST'])
-def home():
-    logging.info('We are just testing logging module in flask app.')
-    return 'flask app with logger'
+from visa.config.configuration import Configuration
+from visa.components.data_ingestion import DataIngestion
+import os
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+def main():
+    try:
+        pipeline = Pipeline()
+        pipeline.run_pipeline()
 
+    except Exception as e:
+        logging.error(f"{e}")
+
+
+if __name__ == "__main__":
+    main()

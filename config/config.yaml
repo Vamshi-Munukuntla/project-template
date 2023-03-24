@@ -1,22 +1,10 @@
 training_pipeline_config:
-    pipeline: US_VISA # Getting the data (Project Name)
-    artifact_dir: artifact # Storing the data in the artifact directory.
-
+  pipeline_name: us_visa
+  artifact_dir: artifact
 
 data_ingestion_config:
-  data_set_download_url: "url"
+  dataset_download_url: https://raw.githubusercontent.com/Shivan118/Main-Branching/main/Visadataset.csv
   raw_data_dir: raw_data
   ingested_dir: ingested_data
   ingested_train_dir: train
   ingested_test_dir: test
-
-from our client:
-
-
-data_validation_config:
-  schema_dir: config
-  schema_file_dir: schema
-
-
-data_transformation_config:
-
