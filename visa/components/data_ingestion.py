@@ -18,7 +18,7 @@ class DataIngestion:
 
     def __init__(self, data_ingestion_config: DataIngestionConfig):
         try:
-            logging.info(f"{'>>' * 30}Data Ingestion log started.{'<<' * 30} \n\n")
+            logging.info(f"{'>>'*30}Data Ingestion log started.{'<<'*30} \n\n")
             self.data_ingestion_config = data_ingestion_config
 
         except Exception as e:
@@ -46,7 +46,7 @@ class DataIngestion:
         except Exception as e:
             raise CustomException(e, sys) from e
 
-    def split_data_as_train_and_test(self) -> DataIngestionArtifact:
+    def split_data_as_train_test(self) -> DataIngestionArtifact:
         try:
             raw_data_dir = self.data_ingestion_config.raw_data_dir
 
@@ -57,12 +57,12 @@ class DataIngestion:
             logging.info(f"Reading csv file: [{us_visa_file_path}]")
 
             # creating the date object of today's date
-            today_date = date.today()
-            current_year = today_date.year
+            todays_date = date.today()
+            current_year= todays_date.year
 
             us_visa_dataframe = pd.read_csv(us_visa_file_path)
 
-            us_visa_dataframe[COLUMN_COMPANY_AGE] = current_year - us_visa_dataframe[COLUMN_YEAR_ESTB]
+            us_visa_dataframe[COLUMN_COMPANY_AGE] = current_year-us_visa_dataframe[COLUMN_YEAR_ESTB]
 
             us_visa_dataframe.drop([COLUMN_ID, COLUMN_YEAR_ESTB], axis=1, inplace=True)
             us_visa_dataframe[COLUMN_CASE_STATUS] = np.where(us_visa_dataframe[COLUMN_CASE_STATUS] == 'Denied', 1, 0)
@@ -79,7 +79,7 @@ class DataIngestion:
 
             test_file_path = os.path.join(self.data_ingestion_config.ingested_test_dir,
                                           file_name)
-            # ***********************************************************************************************
+# ***********************************************************************************************
             if train_set is not None:
                 os.makedirs(self.data_ingestion_config.ingested_train_dir, exist_ok=True)
                 logging.info(f"Exporting training dataset to file: [{train_file_path}]")
@@ -103,7 +103,7 @@ class DataIngestion:
 
     def initiate_data_ingestion(self):
         try:
-            self.download_data()
-            return self.split_data_as_train_and_test()
+            raw_file_path = self.download_data()
+            return self.split_data_as_train_test()
         except Exception as e:
-            raise CustomException(e, sys) from e
+            raise CustomException(e, sys)from e

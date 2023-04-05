@@ -1,0 +1,40 @@
+[2023-03-30 12:13:45,334] root - INFO - Training Pipeline Config Completed: TrainingPipelineConfig(artifact_dir='D:\\DS_Live_Class\\project-template\\us_visa\\artifact')
+[2023-03-30 12:13:45,334] root - INFO - Data Ingestion Config: DataIngestionConfig(dataset_download_url='https://raw.githubusercontent.com/Shivan118/Main-Branching/main/Visadataset.csv', raw_data_dir='D:\\DS_Live_Class\\project-template\\us_visa\\artifact\\data_ingestion\\2023-03-30-12-13-44\\raw_data', ingested_train_dir='D:\\DS_Live_Class\\project-template\\us_visa\\artifact\\data_ingestion\\2023-03-30-12-13-44\\ingested_data\\train', ingested_test_dir='D:\\DS_Live_Class\\project-template\\us_visa\\artifact\\data_ingestion\\2023-03-30-12-13-44\\ingested_data\\test')
+[2023-03-30 12:13:45,334] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-03-30 12:13:45,334] root - INFO - Downloading file from :[https://raw.githubusercontent.com/Shivan118/Main-Branching/main/Visadataset.csv] into :[D:\DS_Live_Class\project-template\us_visa\artifact\data_ingestion\2023-03-30-12-13-44\raw_data\Visadataset.csv]
+[2023-03-30 12:13:46,812] root - INFO - File :[D:\DS_Live_Class\project-template\us_visa\artifact\data_ingestion\2023-03-30-12-13-44\raw_data\Visadataset.csv] has been downloaded successfully.
+[2023-03-30 12:13:46,812] root - INFO - Reading csv file: [D:\DS_Live_Class\project-template\us_visa\artifact\data_ingestion\2023-03-30-12-13-44\raw_data\Visadataset.csv]
+[2023-03-30 12:13:46,853] root - INFO - Splitting data into train and test
+[2023-03-30 12:13:46,858] root - INFO - Exporting training dataset to file: [D:\DS_Live_Class\project-template\us_visa\artifact\data_ingestion\2023-03-30-12-13-44\ingested_data\train\Visadataset.csv]
+[2023-03-30 12:13:46,911] root - INFO - Exporting test dataset to file: [D:\DS_Live_Class\project-template\us_visa\artifact\data_ingestion\2023-03-30-12-13-44\ingested_data\test\Visadataset.csv]
+[2023-03-30 12:13:46,923] root - INFO - Data Ingestion artifact:[DataIngestionArtifact(train_file_path='D:\\DS_Live_Class\\project-template\\us_visa\\artifact\\data_ingestion\\2023-03-30-12-13-44\\ingested_data\\train\\Visadataset.csv', test_file_path='D:\\DS_Live_Class\\project-template\\us_visa\\artifact\\data_ingestion\\2023-03-30-12-13-44\\ingested_data\\test\\Visadataset.csv', is_ingested=True, message='Data Ingestion completed successfully.')]
+[2023-03-30 12:13:46,924] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Validation log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-03-30 12:13:47,054] root - INFO - Check your train data, validation failed
+[2023-03-30 12:13:47,054] root - ERROR - 
+        Error occurred in script: 
+        [ D:\DS_Live_Class\project-template\visa\pipeline\pipeline.py ] at 
+        try block line number: [37] and exception block line number: [39] 
+        error message: [
+        Error occurred in script: 
+        [ D:\DS_Live_Class\project-template\visa\pipeline\pipeline.py ] at 
+        try block line number: [30] and exception block line number: [32] 
+        error message: [
+        Error occurred in script: 
+        [ D:\DS_Live_Class\project-template\visa\components\data_validation.py ] at 
+        try block line number: [88] and exception block line number: [94] 
+        error message: [
+        Error occurred in script: 
+        [ D:\DS_Live_Class\project-template\visa\components\data_validation.py ] at 
+        try block line number: [72] and exception block line number: [82] 
+        error message: [Check your training data, Validation Failed]
+        ]
+        ]
+        ]
+        
+[2023-03-30 12:13:47,054] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Validation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
