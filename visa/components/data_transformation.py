@@ -58,14 +58,15 @@ class DataTransformation:
                 ('scaler', StandardScaler(with_mean=False))
             ]
             )
-            # Power transforms are a family of parametric, monotonic transformations that are applied to make data more Gaussian-like.
+            # Power transforms are a family of parametric, monotonic transformations that are applied to make data
+            # more Gaussian-like.
             transform_pipeline = Pipeline(steps=[
                 ('scaler', StandardScaler()),
                 ('transformer', PowerTransformer())
             ])
 
-            # ColumnTransformer enables us to apply transform to particular columns.
-            # It help us to fit multiple transformations to multiple columns with a single fit() or fit_transform() statement.
+            # ColumnTransformer enables us to apply transform to particular columns. It help us to fit multiple
+            # transformations to multiple columns with a single fit() or fit_transform() statement.
 
             preprocessor = ColumnTransformer([
                 ('num_pipeline', num_pipeline, numerical_columns),

@@ -1,9 +1,11 @@
-from visa.exception import CustomException
-from visa.logger import logging
-import os, sys
-from visa.utils.utils import read_yaml_file
-import pandas as pd
 import collections
+import sys
+
+import numpy as np
+import pandas as pd
+
+from visa.exception import CustomException
+from visa.utils.utils import read_yaml_file
 
 
 class IngestedDataValidation:
@@ -28,7 +30,7 @@ class IngestedDataValidation:
     def validate_column_length(self) -> bool:
         try:
             df = pd.read_csv(self.validate_path)
-            if df.shape[1] == self.data['NumberofColumns']:
+            if df.shape[1] == self.data['Number_of_Columns']:
                 return True
             else:
                 return False
@@ -49,9 +51,10 @@ class IngestedDataValidation:
     def replace_null_values_with_null(self) -> bool:
         try:
             df = pd.read_csv(self.validate_path)
-            df.fillna('NULL', inplace=True)
+            df.fillna(np.nan, inplace=True)
         except Exception as e:
             raise CustomException(e, sys) from e
+        return True
 
     def check_column_names(self) -> bool:
         try:

@@ -1,5 +1,5 @@
 FileName: "Visadataset.csv"
-NumberofColumns: 11
+Number_of_Columns: 11
 ColumnNames:
   continent: category
   education_of_employee: category

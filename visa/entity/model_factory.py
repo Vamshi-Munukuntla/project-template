@@ -18,7 +18,7 @@ PARAM_KEY = 'params'
 MODEL_SELECTION_KEY = 'model_selection'
 SEARCH_PARAM_GRID_KEY = "search_param_grid"
 
-# model_serial_number we need to discused
+# model_serial_number we need to discussed
 
 InitializedModelDetail = namedtuple("InitializedModelDetail",
                                     ["model_serial_number", "model", "param_grid_search", "model_name"])

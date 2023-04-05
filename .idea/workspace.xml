@@ -4,37 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5eee043a-a8cf-4e06-a4ea-44e97a789c03" name="Changes" comment="Configuration file is updated.">
-      <change afterPath="$PROJECT_DIR$/config/model.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/schema.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log2023-03-30 12-13-22.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log2023-04-04 23-12-03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log2023-04-04 23-12-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log2023-04-04 23-45-29.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-03-30-12-13-44/log2023-03-30 12-13-44.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visa/components/data_transformation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visa/components/data_validation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visa/components/model_evaluation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visa/components/model_pusher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visa/components/model_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visa/entity/model_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visa/entity/raw_data_validation.py" afterDir="false" />
+    <list default="true" id="5eee043a-a8cf-4e06-a4ea-44e97a789c03" name="Changes" comment="project is successful">
+      <change afterPath="$PROJECT_DIR$/logs/log2023-04-05 16-17-15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-14-51-23/ingested_data/test/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-14-51-23/ingested_data/train/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-14-51-23/raw_data/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-23-42/ingested_data/test/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-23-42/ingested_data/train/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-23-42/raw_data/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-25-38/ingested_data/test/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-25-38/ingested_data/train/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-25-38/raw_data/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-52-18/ingested_data/test/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-52-18/ingested_data/train/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-52-18/raw_data/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-58-51/ingested_data/test/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-58-51/ingested_data/train/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-58-51/raw_data/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-59-53/ingested_data/test/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-59-53/ingested_data/train/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-15-59-53/raw_data/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-16-00-20/ingested_data/test/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-16-00-20/ingested_data/train/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-16-00-20/raw_data/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-16-01-58/ingested_data/test/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-16-01-58/ingested_data/train/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-16-01-58/raw_data/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-16-17-15/ingested_data/test/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-16-17-15/ingested_data/train/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-04-05-16-17-15/raw_data/Visadataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-14-51-23/preprocessed/preprocessed.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-14-51-23/transformed_data/test/Visadataset.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-14-51-23/transformed_data/train/Visadataset.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-15-23-42/preprocessed/preprocessed.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-15-23-42/transformed_data/test/Visadataset.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-15-23-42/transformed_data/train/Visadataset.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-15-25-38/preprocessed/preprocessed.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-15-25-38/transformed_data/test/Visadataset.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-15-25-38/transformed_data/train/Visadataset.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-15-52-18/preprocessed/preprocessed.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-15-52-18/transformed_data/test/Visadataset.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-15-52-18/transformed_data/train/Visadataset.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-15-58-51/preprocessed/preprocessed.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-15-58-51/transformed_data/test/Visadataset.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-15-58-51/transformed_data/train/Visadataset.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-16-01-58/preprocessed/preprocessed.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-16-01-58/transformed_data/test/Visadataset.npz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us_visa/artifact/data_transformation/2023-04-05-16-01-58/transformed_data/train/Visadataset.npz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exception_debug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-03-23-19-28-16/ingested_data/test/Visadataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-03-30-12-13-44/ingested_data/test/Visadataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-03-23-19-28-16/ingested_data/train/Visadataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-03-30-12-13-44/ingested_data/train/Visadataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-03-23-19-28-16/raw_data/Visadataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/us_visa/artifact/data_ingestion/2023-03-30-12-13-44/raw_data/Visadataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visa/components/data_ingestion.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/components/data_ingestion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/schema.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/schema.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visa/components/data_transformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/components/data_transformation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visa/components/data_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/components/data_validation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visa/config/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/config/configuration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visa/constant/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/constant/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visa/entity/artifact_entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/entity/artifact_entity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visa/entity/config_entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/entity/config_entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visa/entity/model_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/entity/model_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visa/entity/raw_data_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/entity/raw_data_validation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visa/pipeline/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/pipeline/pipeline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visa/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/visa/utils/utils.py" afterDir="false" />
     </list>
@@ -83,16 +107,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/vamsh/3D Objects/project_template/demo.py",
-    "two.files.diff.last.used.file": "C:/Users/vamsh/3D Objects/project_template/demo.py",
-    "two.files.diff.last.used.folder": "D:/Data Science Live Class/project_template-shivan/visa/exception"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vamsh/3D Objects/project_template/visa/utils/utils.py&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/vamsh/3D Objects/project_template/visa/utils/utils.py&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;D:/Data Science Live Class/project_template-shivan/visa/exception&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\DS_Live_Class\project-template\us_visa\artifact\data_ingestion\2023-03-30-12-13-44" />
@@ -165,12 +189,30 @@
       <option name="project" value="LOCAL" />
       <updated>1679551338807</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="project is successful">
+      <created>1680674574205</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680674574205</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -182,6 +224,7 @@
     <MESSAGE value="Exception file is completed" />
     <MESSAGE value="Project Template is ready" />
     <MESSAGE value="Configuration file is updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuration file is updated." />
+    <MESSAGE value="project is successful" />
+    <option name="LAST_COMMIT_MESSAGE" value="project is successful" />
   </component>
 </project>

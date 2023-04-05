@@ -47,6 +47,9 @@ class DataValidation:
             validation_status = True
             logging.info("Validation Process Started")
             if self.isFolderPathAvailable():
+                # Validating the train files
+                logging.info("Validating the train files")
+
                 train_filename = os.path.basename(
                     self.data_ingestion_artifact.train_file_path)
 
@@ -60,6 +63,9 @@ class DataValidation:
                 is_train_missing_values_whole_column = self.train_data.missing_values_whole_column()
 
                 self.train_data.replace_null_values_with_null()
+
+                # Validating the train files
+                logging.info("Validating the test files")
 
                 test_filename = os.path.basename(
                     self.data_ingestion_artifact.test_file_path)
@@ -76,19 +82,25 @@ class DataValidation:
                 self.test_data.replace_null_values_with_null()
 
                 logging.info(
-                    f"Train_set status|is Train filename validated?: {is_train_filename_validated}|is train columns validated?: {is_train_column_numbers_validated}|is train column name validated?: {is_train_column_name_same}|whole missing columns?{is_train_missing_values_whole_column}")
+                    f"Train_set status|is Train filename validated?: {is_train_filename_validated}|is train columns "
+                    f"validated?: {is_train_column_numbers_validated}|is train column name validated?: "
+                    f"{is_train_column_name_same}|whole missing columns?{is_train_missing_values_whole_column}")
                 logging.info(
-                    f"Test_set status|is Test filename validated?: {is_test_filename_validated}is test col numbers validated?: {is_test_column_numbers_validated}|is test column names validated? {is_test_column_name_same}| whole missing columns? {is_test_missing_values_whole_column}")
+                    f"Test_set status|is Test filename validated?: {is_test_filename_validated}is test col numbers "
+                    f"validated?: {is_test_column_numbers_validated}|is test column names validated? "
+                    f"{is_test_column_name_same}| whole missing columns? {is_test_missing_values_whole_column}")
 
-                if is_train_filename_validated & is_train_column_numbers_validated & is_train_column_name_same & is_train_missing_values_whole_column:
+                if is_train_filename_validated & is_train_column_numbers_validated & is_train_column_name_same & \
+                        is_train_missing_values_whole_column:
                     pass
                 else:
                     validation_status = False
-                    logging.info("Check yout Training Data! Validation Failed")
+                    logging.info("Check out Training Data! Validation Failed")
                     raise ValueError(
                         "Check your Training data! Validation failed")
 
-                if is_test_filename_validated & is_test_column_numbers_validated & is_test_column_name_same & is_test_missing_values_whole_column:
+                if is_test_filename_validated & is_test_column_numbers_validated & is_test_column_name_same &\
+                        is_test_missing_values_whole_column:
                     pass
                 else:
                     validation_status = False
@@ -117,4 +129,4 @@ class DataValidation:
             raise CustomException(e, sys) from e
 
     def __del__(self):
-        logging.info(f"{'>>' * 30}Data Validation log completed.{'<<' * 30}")
+        logging.info(f"{'>>' * 30}Data Validation log completed.{'<<' * 30}\n\n")

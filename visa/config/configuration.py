@@ -63,11 +63,11 @@ class Configuration:
         try:
             artifact_dir = self.training_pipeline_config.artifact_dir
 
-            data_validation_artifact_dir = os.path.join(
-                artifact_dir,
-                DATA_VALIDATION_ARTIFACT_DIR,
-                self.time_stamp
-            )
+            # data_validation_artifact_dir = os.path.join(
+            #     artifact_dir,
+            #     DATA_VALIDATION_ARTIFACT_DIR,
+            #     self.time_stamp
+            # )
             data_validation_config = self.config_info[DATA_VALIDATION_CONFIG_KEY]
 
             schema_file_path = os.path.join(ROOT_DIR,
@@ -194,7 +194,7 @@ class Configuration:
                                         )
 
             training_pipeline_config = TrainingPipelineConfig(artifact_dir=artifact_dir)
-            logging.info(f"Training pipleine config: {training_pipeline_config}")
+            logging.info(f"Training pipeline config: {training_pipeline_config}")
             return training_pipeline_config
         except Exception as e:
             raise CustomException(e, sys) from e
