@@ -1,0 +1,52 @@
+[2023-04-05 19:02:28,649] root - INFO - Training pipeline config: TrainingPipelineConfig(artifact_dir='D:\\DS_Live_Class\\project-template\\us_visa\\artifact')
+[2023-04-05 19:02:28,650] root - INFO - Data Ingestion config: DataIngestionConfig(dataset_download_url='https://raw.githubusercontent.com/Shivan118/Main-Branching/main/Visadataset.csv', raw_data_dir='D:\\DS_Live_Class\\project-template\\us_visa\\artifact\\data_ingestion\\2023-04-05-19-02-25\\raw_data', ingested_train_dir='D:\\DS_Live_Class\\project-template\\us_visa\\artifact\\data_ingestion\\2023-04-05-19-02-25\\ingested_data\\train', ingested_test_dir='D:\\DS_Live_Class\\project-template\\us_visa\\artifact\\data_ingestion\\2023-04-05-19-02-25\\ingested_data\\test')
+[2023-04-05 19:02:28,655] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-04-05 19:02:28,656] root - INFO - Downloading file from :[https://raw.githubusercontent.com/Shivan118/Main-Branching/main/Visadataset.csv] into :[D:\DS_Live_Class\project-template\us_visa\artifact\data_ingestion\2023-04-05-19-02-25\raw_data\Visadataset.csv]
+[2023-04-05 19:02:30,430] root - INFO - File :[D:\DS_Live_Class\project-template\us_visa\artifact\data_ingestion\2023-04-05-19-02-25\raw_data\Visadataset.csv] has been downloaded successfully.
+[2023-04-05 19:02:30,430] root - INFO - Reading csv file: [D:\DS_Live_Class\project-template\us_visa\artifact\data_ingestion\2023-04-05-19-02-25\raw_data\Visadataset.csv]
+[2023-04-05 19:02:30,492] root - INFO - Splitting data into train and test
+[2023-04-05 19:02:30,503] root - INFO - Exporting training dataset to file: [D:\DS_Live_Class\project-template\us_visa\artifact\data_ingestion\2023-04-05-19-02-25\ingested_data\train\Visadataset.csv]
+[2023-04-05 19:02:30,588] root - INFO - Exporting test dataset to file: [D:\DS_Live_Class\project-template\us_visa\artifact\data_ingestion\2023-04-05-19-02-25\ingested_data\test\Visadataset.csv]
+[2023-04-05 19:02:30,610] root - INFO - Data Ingestion artifact:[DataIngestionArtifact(train_file_path='D:\\DS_Live_Class\\project-template\\us_visa\\artifact\\data_ingestion\\2023-04-05-19-02-25\\ingested_data\\train\\Visadataset.csv', test_file_path='D:\\DS_Live_Class\\project-template\\us_visa\\artifact\\data_ingestion\\2023-04-05-19-02-25\\ingested_data\\test\\Visadataset.csv', is_ingested=True, message='Data Ingestion completed successfully.')]
+[2023-04-05 19:02:30,612] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Validation log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-04-05 19:02:30,617] root - INFO - Validation Process Started
+[2023-04-05 19:02:30,617] root - INFO - Validating the train files
+[2023-04-05 19:02:30,756] root - INFO - Validating the test files
+[2023-04-05 19:02:30,814] root - INFO - Train_set status|is Train filename validated?: True|is train columns validated?: True|is train column name validated?: True|whole missing columns?True
+[2023-04-05 19:02:30,815] root - INFO - Test_set status|is Test filename validated?: Trueis test col numbers validated?: True|is test column names validated? True| whole missing columns? True
+[2023-04-05 19:02:30,815] root - INFO - Validation Process Completed
+[2023-04-05 19:02:30,815] root - INFO - Data validation artifact: DataValidationArtifact(schema_file_path='D:\\DS_Live_Class\\project-template\\config\\schema.yaml', is_validated=True, message='Data validation performed')
+[2023-04-05 19:02:30,815] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Validation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+[2023-04-05 19:02:30,815] root - INFO - Data transformation config: DataTransformationConfig(transformed_train_dir='D:\\DS_Live_Class\\project-template\\us_visa\\artifact\\data_transformation\\2023-04-05-19-02-25\\transformed_data\\train', transformed_test_dir='D:\\DS_Live_Class\\project-template\\us_visa\\artifact\\data_transformation\\2023-04-05-19-02-25\\transformed_data\\test', preprocessed_object_file_path='D:\\DS_Live_Class\\project-template\\us_visa\\artifact\\data_transformation\\2023-04-05-19-02-25\\preprocessed\\preprocessed.pkl')
+[2023-04-05 19:02:30,815] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-04-05 19:02:30,815] root - INFO - Obtaining preprocessing object.
+[2023-04-05 19:02:30,818] root - ERROR - 
+        Error occurred in script: 
+        [ D:\DS_Live_Class\project-template\visa\pipeline\pipeline.py ] at 
+        try block line number: [103] and exception block line number: [112] 
+        error message: [
+        Error occurred in script: 
+        [ D:\DS_Live_Class\project-template\visa\pipeline\pipeline.py ] at 
+        try block line number: [59] and exception block line number: [61] 
+        error message: [
+        Error occurred in script: 
+        [ D:\DS_Live_Class\project-template\visa\components\data_transformation.py ] at 
+        try block line number: [100] and exception block line number: [182] 
+        error message: [
+        Error occurred in script: 
+        [ D:\DS_Live_Class\project-template\visa\components\data_transformation.py ] at 
+        try block line number: [38] and exception block line number: [81] 
+        error message: ['Numerical_columns']
+        ]
+        ]
+        ]
+        
+[2023-04-05 19:02:30,819] root - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+

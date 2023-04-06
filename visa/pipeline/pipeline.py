@@ -23,7 +23,7 @@ from datetime import datetime
 import pandas as pd
 
 
-class Pipeline():
+class Pipeline:
 
     def __init__(self, config: Configuration = Configuration()) -> None:
         try:

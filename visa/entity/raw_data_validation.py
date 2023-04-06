@@ -52,9 +52,9 @@ class IngestedDataValidation:
         try:
             df = pd.read_csv(self.validate_path)
             df.fillna(np.nan, inplace=True)
+            return True
         except Exception as e:
             raise CustomException(e, sys) from e
-        return True
 
     def check_column_names(self) -> bool:
         try:
@@ -63,6 +63,5 @@ class IngestedDataValidation:
             schema_column_names = list(self.data['ColumnNames'].keys())
 
             return True if (collections.Counter(df_column_names) == collections.Counter(schema_column_names)) else False
-
         except Exception as e:
             raise CustomException(e, sys) from e

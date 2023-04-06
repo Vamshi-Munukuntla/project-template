@@ -15,23 +15,21 @@ class DataValidation:
     def __init__(self, data_validation_config: DataValidationConfig,
                  data_ingestion_artifact: DataIngestionArtifact):
         try:
-            logging.info(
-                f"{'>>' * 30}Data Validation log started.{'<<' * 30} \n\n")
+            logging.info(f"{'>>' * 30}Data Validation log started.{'<<' * 30} \n\n")
             self.data_validation_config = data_validation_config
             self.data_ingestion_artifact = data_ingestion_artifact
             self.schema_path = self.data_validation_config.schema_file_path
             self.train_data = IngestedDataValidation(
-                validate_path=self.data_ingestion_artifact.train_file_path, schema_path=self.schema_path)
+                validate_path=self.data_ingestion_artifact.train_file_path,
+                schema_path=self.schema_path)
             self.test_data = IngestedDataValidation(
-                validate_path=self.data_ingestion_artifact.test_file_path, schema_path=self.schema_path)
+                validate_path=self.data_ingestion_artifact.test_file_path,
+                schema_path=self.schema_path)
         except Exception as e:
             raise CustomException(e, sys) from e
 
     def isFolderPathAvailable(self) -> bool:
         try:
-
-            # True means available false means not available
-
             isfolder_available = False
             train_path = self.data_ingestion_artifact.train_file_path
             test_path = self.data_ingestion_artifact.test_file_path
@@ -42,14 +40,13 @@ class DataValidation:
         except Exception as e:
             raise CustomException(e, sys) from e
 
-    def is_Validation_successfull(self):
+    def is_Validation_successful(self):
         try:
             validation_status = True
             logging.info("Validation Process Started")
             if self.isFolderPathAvailable():
                 # Validating the train files
                 logging.info("Validating the train files")
-
                 train_filename = os.path.basename(
                     self.data_ingestion_artifact.train_file_path)
 
@@ -64,9 +61,8 @@ class DataValidation:
 
                 self.train_data.replace_null_values_with_null()
 
-                # Validating the train files
+                # Validating the test files
                 logging.info("Validating the test files")
-
                 test_filename = os.path.basename(
                     self.data_ingestion_artifact.test_file_path)
 
@@ -109,7 +105,6 @@ class DataValidation:
                         "Check your Testing data! Validation failed")
 
                 logging.info("Validation Process Completed")
-
                 return validation_status
 
         except Exception as e:
@@ -118,11 +113,12 @@ class DataValidation:
     def initiate_data_validation(self):
         try:
             data_validation_artifact = DataValidationArtifact(
-                schema_file_path=self.schema_path, is_validated=self.is_Validation_successfull(),
-                message="Data validation performed"
+                schema_file_path=self.schema_path,
+                is_validated=self.is_Validation_successful(),
+                message="Data Validation Performed"
             )
             logging.info(
-                f"Data validation artifact: {data_validation_artifact}")
+                f"Data Validation Artifact: {data_validation_artifact}")
             return data_validation_artifact
 
         except Exception as e:
